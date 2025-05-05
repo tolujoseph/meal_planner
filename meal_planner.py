@@ -4,9 +4,9 @@ from fpdf import FPDF
 from telegram import Bot
 
 # ------------------- CONFIG -------------------
-openai.api_key = "YOUR_OPENAI_API_KEY"  # Replace with your OpenAI key
-TELEGRAM_TOKEN = "YOUR_BOT_TOKEN_HERE"   # Replace with your Telegram bot token
-TELEGRAM_CHAT_ID = "YOUR_USER_ID_HERE"   # Replace with your Telegram user ID
+openai.api_key = "openai_api_key"
+TELEGRAM_TOKEN = "telegram_token" 
+TELEGRAM_CHAT_ID = "telegram_user_id" 
 
 MEAL_TYPES = ["Breakfast", "Lunch", "Dinner"]
 DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
